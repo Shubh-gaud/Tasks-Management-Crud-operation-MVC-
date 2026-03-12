@@ -1,0 +1,15 @@
+﻿@model TaskItem
+
+<h2>Task Details</h2>
+
+<div>
+    <p><strong>Title:</strong> @Model.TaskTitle</p>
+    <p><strong>Description:</strong> @Model.TaskDescription</p>
+    <p><strong>Due Date:</strong> @Model.TaskDueDate.ToShortDateString()</p>
+    <p><strong>Status:</strong> @Model.TaskStatus</p>
+    <p><strong>Remarks:</strong> @Model.TaskRemarks</p>
+    <p><strong>Created On:</strong> @Model.CreatedOn</p>
+    <p><strong>Last Updated:</strong> @Model.LastUpdatedOn</p>
+</div>
+
+<a asp-action="Index">Back to List</a>

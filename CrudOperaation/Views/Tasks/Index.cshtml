@@ -1,0 +1,35 @@
+﻿@model IEnumerable<TaskItem>
+
+<h2>Task List</h2>
+
+<form method="get">
+    <input type="text" name="search" placeholder="Search by Title" />
+    <button type="submit">Search</button>
+</form>
+
+<p>
+    <a asp-action="Create">Create New Task</a>
+</p>
+
+<table class="table">
+    <tr>
+        <th>Title</th>
+        <th>Status</th>
+        <th>Due Date</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.TaskTitle</td>
+            <td>@item.TaskStatus</td>
+            <td>@item.TaskDueDate.ToShortDateString()</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

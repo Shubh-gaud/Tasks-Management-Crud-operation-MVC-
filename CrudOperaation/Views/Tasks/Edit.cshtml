@@ -1,29 +1,59 @@
 ﻿@model TaskItem
 
-<h2>Edit Task</h2>
+<div class="row justify-content-center">
+    <div class="col-md-6">
 
-<form asp-action="Edit" method="post">
-    <input type="hidden" asp-for="Id" />
+        <div class="card shadow-lg border-0">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Edit Task</h4>
+            </div>
 
-    <div>
-        <label>Title</label>
-        <input asp-for="TaskTitle" />
+            <div class="card-body">
+
+                <form asp-action="Edit">
+                    <input type="hidden" asp-for="Id" />
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Title</label>
+                        <input asp-for="TaskTitle" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Description</label>
+                        <textarea asp-for="TaskDescription"
+                                  class="form-control"
+                                  rows="3"></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Due Date</label>
+                        <input asp-for="TaskDueDate"
+                               type="date"
+                               class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Status</label>
+                        <select asp-for="TaskStatus" class="form-select">
+                            <option value="Pending">Pending</option>
+                            <option value="complete">Completed</option>
+                        </select>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Index" class="btn btn-secondary">
+                            Cancel
+                        </a>
+
+                        <button type="submit" class="btn btn-success">
+                            Update Task
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
     </div>
-
-    <div>
-        <label>Description</label>
-        <input asp-for="TaskDescription" />
-    </div>
-
-    <div>
-        <label>Due Date</label>
-        <input asp-for="TaskDueDate" type="date" />
-    </div>
-
-    <div>
-        <label>Status</label>
-        <input asp-for="TaskStatus" />
-    </div>
-
-    <button type="submit">Update</button>
-</form>
+</div>

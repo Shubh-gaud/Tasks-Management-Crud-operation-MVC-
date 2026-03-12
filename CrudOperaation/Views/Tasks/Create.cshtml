@@ -1,22 +1,35 @@
 ﻿@model TaskItem
 
-<h2>Create Task</h2>
+<h3 class="mb-4">Create New Task</h3>
 
-<form asp-action="Create" method="post">
-    <div>
-        <label>Title</label>
-        <input asp-for="TaskTitle" />
+<div class="card shadow-sm">
+    <div class="card-body">
+        <form asp-action="Create">
+            <div class="mb-3">
+                <label class="form-label">Title</label>
+                <input asp-for="TaskTitle" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Description</label>
+                <textarea asp-for="TaskDescription" class="form-control"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Due Date</label>
+                <input asp-for="TaskDueDate" type="date" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Status</label>
+                <select asp-for="TaskStatus" class="form-select">
+                    <option value="Pending">Pending</option>
+                    <option value="complete">Completed</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-success">Save Task</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </form>
     </div>
-
-    <div>
-        <label>Description</label>
-        <input asp-for="TaskDescription" />
-    </div>
-
-    <div>
-        <label>Due Date</label>
-        <input asp-for="TaskDueDate" type="date" />
-    </div>
-
-    <button type="submit">Save</button>
-</form>
+</div>

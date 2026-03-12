@@ -1,12 +1,117 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|c:\\users\\91638\\onedrive\\desktop\\crudoperation\\crudoperaation\\views\\tasks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|solutionrelative:crudoperaation\\views\\tasks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|c:\\users\\91638\\onedrive\\desktop\\crudoperation\\crudoperaation\\views\\tasks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|solutionrelative:crudoperaation\\views\\tasks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|c:\\users\\91638\\onedrive\\desktop\\crudoperation\\crudoperaation\\views\\tasks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|solutionrelative:crudoperaation\\views\\tasks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|c:\\users\\91638\\onedrive\\desktop\\crudoperation\\crudoperaation\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|solutionrelative:crudoperaation\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|c:\\users\\91638\\onedrive\\desktop\\crudoperation\\crudoperaation\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|solutionrelative:crudoperaation\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|c:\\users\\91638\\onedrive\\desktop\\crudoperation\\crudoperaation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30EB7C15-9099-47D8-AA90-5A5FA57F13A0}|CrudOperaation\\CrudOperaation.csproj|solutionrelative:crudoperaation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Tasks\\Details.cshtml",
+              "RelativeDocumentMoniker": "CrudOperaation\\Views\\Tasks\\Details.cshtml",
+              "ToolTip": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Tasks\\Details.cshtml",
+              "RelativeToolTip": "CrudOperaation\\Views\\Tasks\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T05:16:52.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Tasks\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CrudOperaation\\Views\\Tasks\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Tasks\\Edit.cshtml",
+              "RelativeToolTip": "CrudOperaation\\Views\\Tasks\\Edit.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwDoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T05:15:06.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Tasks\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CrudOperaation\\Views\\Tasks\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Tasks\\Delete.cshtml",
+              "RelativeToolTip": "CrudOperaation\\Views\\Tasks\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T05:12:07.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Tasks\\Create.cshtml",
+              "RelativeDocumentMoniker": "CrudOperaation\\Views\\Tasks\\Create.cshtml",
+              "ToolTip": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Tasks\\Create.cshtml",
+              "RelativeToolTip": "CrudOperaation\\Views\\Tasks\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T05:11:58.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Tasks\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudOperaation\\Views\\Tasks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Tasks\\Index.cshtml",
+              "RelativeToolTip": "CrudOperaation\\Views\\Tasks\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T05:11:28.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CrudOperaation\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\91638\\OneDrive\\Desktop\\Crudoperation\\CrudOperaation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CrudOperaation\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T05:08:17.524Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

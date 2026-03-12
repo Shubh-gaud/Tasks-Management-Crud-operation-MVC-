@@ -1,35 +1,62 @@
 ﻿@model IEnumerable<TaskItem>
 
-<h2>Task List</h2>
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="fw-bold">Task Dashboard</h2>
+    <a asp-action="Create" class="btn btn-primary">
+        + Create Task
+    </a>
+</div>
 
-<form method="get">
-    <input type="text" name="search" placeholder="Search by Title" />
-    <button type="submit">Search</button>
+<form method="get" class="mb-3">
+    <div class="input-group">
+        <input type="text" name="search" class="form-control" placeholder="Search by title..." />
+        <button type="submit" class="btn btn-outline-primary">Search</button>
+    </div>
 </form>
 
-<p>
-    <a asp-action="Create">Create New Task</a>
-</p>
+<div class="card shadow-sm">
+    <div class="card-body p-0">
+        <table class="table table-hover mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>Title</th>
+                    <th>Status</th>
+                    <th>Due Date</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="fw-semibold">@item.TaskTitle</td>
 
-<table class="table">
-    <tr>
-        <th>Title</th>
-        <th>Status</th>
-        <th>Due Date</th>
-        <th>Actions</th>
-    </tr>
+                        <td>
+                            @if (item.TaskStatus == "complete")
+                            {
+                                <span class="badge bg-success">Completed</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-warning text-dark">Pending</span>
+                            }
+                        </td>
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.TaskTitle</td>
-            <td>@item.TaskStatus</td>
-            <td>@item.TaskDueDate.ToShortDateString()</td>
-            <td>
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-    }
-</table>
+                        <td>@item.TaskDueDate.ToShortDateString()</td>
+
+                        <td class="text-end">
+                            <a asp-action="Details" asp-route-id="@item.Id"
+                               class="btn btn-sm btn-info text-white">Details</a>
+
+                            <a asp-action="Edit" asp-route-id="@item.Id"
+                               class="btn btn-sm btn-warning">Edit</a>
+
+                            <a asp-action="Delete" asp-route-id="@item.Id"
+                               class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

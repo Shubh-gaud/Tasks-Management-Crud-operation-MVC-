@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CrudOperaation",
-    "\\CrudOperaation\\Views"
+    "\\CrudOperaation\\Views",
+    "\\CrudOperaation\\Views\\Tasks"
   ],
-  "SelectedNode": "\\CrudOperaation.sln",
+  "SelectedNode": "\\CrudOperaation\\Views\\Tasks\\Details.cshtml",
   "PreviewInSolutionExplorer": false
 }
